@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #c5bebe;;
+    background: linear-gradient(to bottom, #091f2e8f, #1d283db4), url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
+    background-repeat: initial;
+    background-size: 100% 200%; */
+}
+.container {
+    width: 100%;
+    height: min-content;
+    background-color: #8280e4;
+    padding: 2vh 5vh;
+    background: linear-gradient(to bottom, #0a53858f, #061a3fb4), url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100vw;
+    margin-top: 10px; */
+}
+.navbar > div > img {
+    width: 130px;
+    transform: scale(0.8);
+}
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    height: 4vh;
+    /* margin-top: 50px; */
+    font-family: 'Red Rose' , sans-serif;
+    font-weight: 700;
+    color: #F7CD2E;
+    cursor: pointer;
+}
+li:hover {
+   text-decoration: underline;
+}
+.button-small {
+    border: none;
+    /* display: flex; */
+    padding: 1vh 4vh;
+    width: 7vw;
+    justify-content: center;
+    height: 2.7vw;
+    font-family: 'Red Rose';
+    font-weight: 600;
+    /* word-spacing: 30px; */
+    font-size: medium;
+    color: #fff;
+    background-color: rgb(238, 54, 54);
+    cursor: pointer;
+}
+.button-small:hover {
+    height: 3vw;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.24);
+}
+.hero {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    padding: 4vh 2vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero-heading {
+    font-size: 5rem;
+    width: 60%;
+    margin-top: 16vh;
+    text-align: center;
+    font-family: 'Dela+Gothic+One' , sans-serif;
+    font-weight: 700;
+    color: #F7CD2E   
+}
+.hero-heading + button{
+    padding: 2.5vh 8vh;
+    background-color: rgb(238, 54, 54);
+    /* justify-content: center; */
+    /* height: 2.7vw; */
+    font-family: 'Red Rose';
+    font-weight: 600;
+    font-size: medium;
+    border: none;
+    /* outline: none; */
+    cursor: pointer;
+    color: #fff;
+  }
+  .button-large {
+    margin-top: 5vh;
+  }
+  .button-large:hover {
+    padding: 2.8vh 8vh;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.24);
+  }
+  .bottom{
+    margin: 6vh;
+    position: relative;
+    top: -9vh;
+    transform: scale(0.8);
+    left: 43%;
+}
